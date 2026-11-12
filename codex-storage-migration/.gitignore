@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+*.sqlite*
+*.db
+auth.json
+.env
+reports/
+private/
+codex-migration-*/
+codex-cross-volume-fixture-*/
