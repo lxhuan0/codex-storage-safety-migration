@@ -1,0 +1,63 @@
+{
+  "version": "0.2.0-preview",
+  "date": "2026-11-12",
+  "skill_format": "Passed",
+  "local_runs": [
+    {
+      "os": "Windows",
+      "python": "3.12.14",
+      "tests": 45,
+      "passed": 44,
+      "skipped": 1,
+      "skipped_reason": "Non-Windows platform-refusal test does not apply on Windows",
+      "second_local_NTFS_volume_fixture": "Passed",
+      "hard_process_exit_recovery": "Passed"
+    },
+    {
+      "os": "Windows",
+      "python": "3.13.5",
+      "tests": 45,
+      "passed": 44,
+      "skipped": 1,
+      "skipped_reason": "Non-Windows platform-refusal test does not apply on Windows",
+      "second_local_NTFS_volume_fixture": "Passed",
+      "hard_process_exit_recovery": "Passed"
+    }
+  ],
+  "distinct_physical_machines_tested": 1,
+  "hosted_CI": "Configured; not run by this release task",
+  "source_syntax": "Passed",
+  "relative_document_links": "Passed",
+  "private_case_identifier_scan": "No matches",
+  "executor": "Windows fixed-local-NTFS single-directory jobs",
+  "fixture_process_guard": "Mocked only for isolated synthetic trees; production CLI has no bypass",
+  "native_process_enumeration_and_file_share_tests": "Passed",
+  "unverified": [
+    "Foreign-owned/sandbox production trees",
+    "SACL auditing and exact ACE inheritance origin",
+    "Arbitrary live Codex installations, login, plugins, updates and security products",
+    "macOS/Linux mutating execution (explicitly unsupported)"
+  ],
+  "production_data_changed": false,
+  "publication": "Files prepared locally; not published",
+  "source_sha256": {
+    ".github/workflows/tests.yml": "cd8cd00c8acd19f6c45e2d579b284d5ac2be58183ec127c8d850196ef5504161",
+    ".gitignore": "9b70921e3b80541bb381cdbfaea4f601a7771fc24ca638359e9129940eacdd07",
+    "LICENSE": "6f014613bbbeaa848cc6bb4c9b19320ce8d356393999719e99498f08d79111f1",
+    "README.md": "32e3fb690c49989a9b6b067bf1e0ab8ca4e336ae9855f2aa22d5fce601095eda",
+    "skills/codex-storage-migration/agents/openai.yaml": "5b6229f9fa653315774fabd091a276240bf101f84461a85a09d763fa85fb1e7a",
+    "skills/codex-storage-migration/references/evidence-sources.md": "0784cb26e136c838a8d96216f85276043b240ab94f8477fd05570f25a1d78082",
+    "skills/codex-storage-migration/references/executor.md": "69760156d3579f8d16913179ee9f81a06f0fc397c807b24e27aac6b8ea526f26",
+    "skills/codex-storage-migration/references/failure-lessons.md": "4fe02c60772ca3f4b61db05ba2888e24952fdb8f2edaedb003883a6b6c7630f9",
+    "skills/codex-storage-migration/references/migration-recovery.md": "e66cc292c3c264d8e024f3da19a6b27c07f512895ddc81a6e1eb0693e7bd30a8",
+    "skills/codex-storage-migration/references/platforms.md": "2992597c95453788d315b9e6b62b05c29f29e099157ea2b998d4f395b4839dd2",
+    "skills/codex-storage-migration/scripts/discover.py": "bc2709f075ac7e6912d8cbc21e994362355811657216490acf3d755f46b48d89",
+    "skills/codex-storage-migration/scripts/inventory.py": "9fe43eeb8d33f19dbbaa67033969c7d91c6e788de3fbe0b053d81aac2fb14c29",
+    "skills/codex-storage-migration/scripts/migrate.py": "e8fdf11d8c60d85b33295fb83883d0dcbd7ce83e117f4dac87ab47bd890ff1e0",
+    "skills/codex-storage-migration/scripts/windows_fs.py": "d31b34495df503f2ccd9db65b304c83e72e03e3bd7f346e8b766b24137c1280b",
+    "skills/codex-storage-migration/SKILL.md": "3e531ea7fe087c12f8d31a419d99a8eff57b102da1c26170757f25cd3878b5f8",
+    "tests/test_discover.py": "fc6dd76374317f482977398402647099bfba486b377394a95ca56a3f977cc39a",
+    "tests/test_inventory.py": "7d9a27c2b71812e0c26d7d23143f24667be43eb1d4f25c9076df1c6c0c795c97",
+    "tests/test_migrate.py": "145e21ed5912c4c2cea82cef296069bb1bc9b267c6b3cfb10a122773fa2d88e4"
+  }
+}

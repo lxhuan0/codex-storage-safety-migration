@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Storage Migration"
+  short_description: "Plan and test recoverable Codex storage relocation"
+  default_prompt: "Use $codex-storage-migration to inventory my Codex storage and propose a recoverable relocation plan before changing files."
